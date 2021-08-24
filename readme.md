@@ -34,7 +34,7 @@
 │
 └─model_file # 模型文件
     │  
-    ├─emotion_identify # fine-tune的模型
+    ├─emotion_identify # fine-tune的模型，模型文件过大不方便上传
     │      config.json
     │      pytorch_model.bin
     │      special_tokens_map.json
@@ -42,7 +42,7 @@
     │      tokenizer_config.json
     │      vocab.txt
     │
-    └─ernie-1.0 # 下载的预训练模型
+    └─ernie-1.0 # 下载的预训练模型，下载链接https://huggingface.co/nghuyong/ernie-1.0/tree/main
             config.json
             pytorch_model.bin
             special_tokens_map.json
@@ -55,13 +55,13 @@
 
 `core/eval.py`输出结果：在训练和开发集上都有着99.4%左右的准确率，在测试集上也有90.8%的准确率
 
-![image-20210824164903870](C:\Users\wie\AppData\Roaming\Typora\typora-user-images\image-20210824164903870.png)
+![image-20210824164903870](https://github.com/yang-collect/emotion_class/blob/main/image-20210824164903870.png)
 
 
 
 `core/emotion_identify_sever.py`用postman测试结果： 用时76ms
 
-![image-20210824163800123](C:\Users\wie\AppData\Roaming\Typora\typora-user-images\image-20210824163800123.png)
+![image-20210824163800123](https://github.com/yang-collect/emotion_class/blob/main/image-20210824163800123.png)
 
 # 主要用到的模型、环境以及流程介绍
 
