@@ -72,6 +72,7 @@
 > torch                     1.8.1+cpu                pypi_0    pypi
 
 > pytorch-transformers      1.2.0                    pypi_0    pypi
+
 > transformers              4.6.1                    pypi_0    pypi
 
 ## 主要用到模型是百度开源的ernie-1.0
